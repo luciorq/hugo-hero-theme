@@ -192,4 +192,6 @@ Most likely if you are deploying to Netlify and created a new Hugo site or added
 
 ## License
 
-If you fork or copy this theme the LICENSE file and the copyright notice on line 3 (where I am listed as the author) must not be changed. You cannot just replace the copyright line with your own name. Attribution in your README.md or on your site is also welcome but not required.
+This theme is heavily modified version of [hugo-hero-theme](https://github.com/zerostaticthemes/hugo-hero-theme) by @zerostaticthemes, without his work it wouldn't be possible to provide [hugo-villain-theme](https://github.com/luciorq/hugo-villain-theme) in it's current form.
+
+If you fork or copy this theme the LICENSE file and the copyright notice on line 3 and 4 (where authors are listed) must not be changed. You cannot just replace the copyright line with your own name. Attribution in your README.md or on your site is also welcome but not required.
