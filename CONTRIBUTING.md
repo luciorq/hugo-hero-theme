@@ -11,7 +11,7 @@ If you find a bug in this template you can:
 
 ## Pull Requests
 
-* Pull requests for new features and improvements are welcome, there doesnt have to be an existing issue.
-* Please fork this theme, create a new branch and create a Pull Request when finished
-* Be clear and descriptive in your PR
-* PR's will be built automatically using Netlify branch deploys, so make sure your PR passes that check
+* Pull requests for new features and improvements are welcome, there doesn't have to be an existing issue.
+* Please fork this theme, create a new branch and create a Pull Request when finished.
+* Be clear and descriptive in your PR.
+* PR's will be built automatically using GitHub Actions branch deploys, so make sure your PR passes that check.

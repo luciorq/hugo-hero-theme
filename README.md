@@ -1,12 +1,11 @@
-# Hugo Hero Theme
+# Hugo Villain Theme
 
-Hero is a multi-page business theme with fullscreen hero images and fullwidth sections.
+Villain is a multi-page business theme with fullscreen hero images and fullwidth sections.
 
-[Live Demo](https://hugo-hero.netlify.com/) |
-[Installation](#installation) | 
-[Zerostatic Themes](https://www.zerostatic.io/theme/hugo-hero/)
+[Live Demo](http://luciorq.github.io/hugo-villain-theme) |
+[Installation](#installation)
 
-![Hugo Hero Theme screenshot](https://github.com/JugglerX/hugo-hero-theme/blob/master/images/screenshot-full.jpg)
+![Hugo Villain Theme screenshot](https://github.com/luciorq/hugo-hero-theme/blob/master/images/screenshot-full.jpg)
 
 # Features
 
@@ -47,7 +46,7 @@ Hero is a multi-page business theme with fullscreen hero images and fullwidth se
 
 ### Menu
 
-- Responsive mobile menu managed in `config.toml`
+- Responsive mobile menu managed in `config.yaml`
 
 ### Content
 
@@ -59,7 +58,7 @@ Hero is a multi-page business theme with fullscreen hero images and fullwidth se
 
 To use this theme you will need to have Hugo installed. If you don't already have Hugo installed please follow the official [installation guide](https://gohugo.io/getting-started/installing/)
 
-### Check Hugo version (Hugo 0.51+ Extended is required)
+### Check Hugo version (Hugo 0.74.3+ Extended is required)
 
 This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/scss-sass/) to compile SCSS and minify assets. Please make sure you have the **Hugo Extended** version installed. If you are not using the extended version this theme will not not compile.
 
@@ -84,33 +83,33 @@ This will create a fresh Hugo site in the folder `mynewsite`.
 Clone this repo into the themes folder
 ```
 cd mynewsite
-git clone https://github.com/jugglerx/hugo-hero-theme.git themes/hugo-hero-theme
+git clone https://github.com/luciorq/hugo-villain-theme.git themes/villain
 ```
 
 ### Install theme from .zip file
 
-You can download the .zip file located here https://github.com/JugglerX/hugo-hero-theme/archive/master.zip.
+You can download the .zip file located here https://github.com/luciorq/hugo-villain-theme/archive/master.zip.
 
-Extract the downloaded .zip inside the `themes` folder. Rename the extracted folder from `hugo-hero-theme-master` -> `hugo-hero-theme`. You should end up with the following folder structure `mynewsite/themes/hugo-hero-theme`
+Extract the downloaded .zip inside the `themes` folder. Rename the extracted folder from `hugo-villain-theme-master` -> `hugo-villain-theme`. You should end up with the following folder structure `mynewsite/themes/hugo-villain-theme`
 
 ### Copy example content
 
-Copy the entire contents of the `mynewsite/themes/hugo-hero-theme/exampleSite/` folder to root folder of your Hugo site, ie `mynewsite/`
+Copy the entire contents of the `mynewsite/themes/hugo-villain-theme/exampleSite/` folder to root folder of your Hugo site, i.e. `mynewsite/`
 
-To copy the files using terminal, make sure you are still in the projects root, ie the `mynewsite` folder.
+To copy the files using terminal, make sure you are still in the projects root, i.e. the `mynewsite` folder.
 
 ```
-cp -a themes/hugo-hero-theme/exampleSite/. .
+cp -a themes/hugo-villain-theme/exampleSite/. .
 ```
 
-### Update config.toml
+### Update config.{toml, yaml, json}
 
-After you copy the `config.toml` into the root folder of your Hugo site you will need to update the `baseURL`, `themesDir` and `theme` values in `mynewsite/config.toml`
+After you copy the `config.{toml, yaml, json}` into the root folder of your Hugo site you will need to update the `baseURL`, `themesDir` and `theme` values in `mynewsite/config.{toml, yaml, json}`
 
 ```
 baseURL = "/"
 themesDir = "themes"
-theme = "hugo-hero-theme"
+theme = "hugo-villain-theme"
 ```
 
 ### Run Hugo
@@ -135,7 +134,7 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 ### Homepage meta tags
 
-Often a homepage requires special meta tags such as a meta description or og meta data for twitter, facebook etc. You can configure these values in the `config.toml`
+Often a homepage requires special meta tags such as a meta description or Open Graph (og) meta data for twitter, facebook, etc. You can configure these values in the `config.{toml, yaml, json}`
 
 ```
 // config.toml
@@ -172,23 +171,22 @@ You can set meta tags on a per template basis using a block. For example, you mi
 
 ### Google Analytics
 
-Add you google analytics ID to the `config.toml`
+Add you Google Analytics ID to the `config.toml`
 
 ```
 // config.toml
 [params]
-  google_analytics_id="UA-132398315-1"
+  google_analytics_id="UA-100000000-1"
 ```
 
 ### Menu
 
 You can edit and add main menu links in the `config.toml` under `[[menu.main]]`
 
-# Deploying to Netlify
+# Deploying to GitHub Pages
 
-This theme includes a `netlify.toml` which is configured to deploy to Netlify from the `exampleSite` folder. See this discussion on how to deploy your site on Netlify from the `exampleSite` folder - https://discourse.gohugo.io/t/deploy-your-theme-to-netlify/15508
-
-Most likely if you are deploying to Netlify and created a new Hugo site or added this theme to an existing Hugo site then you are not deploying from the `exampleSite` directory and you can delete the `netlify.toml` file.
+A descriptive tutorial can be found [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+<!-- TODO write a paragraph about deplying to GH Pages-->
 
 ## License
 
