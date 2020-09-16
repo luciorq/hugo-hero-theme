@@ -2,10 +2,12 @@
 
 Villain is a multi-page business theme with fullscreen hero images and fullwidth sections.
 
+A modern villainous approach on the hero theme for Hugo.
+
 [Live Demo](http://luciorq.github.io/hugo-villain-theme) |
 [Installation](#installation)
 
-![Hugo Villain Theme screenshot](https://github.com/luciorq/hugo-hero-theme/blob/master/images/screenshot-full.jpg)
+![Hugo Villain Theme screenshot](https://github.com/luciorq/hugo-villain-theme/blob/master/images/screenshot-full.jpg)
 
 # Features
 

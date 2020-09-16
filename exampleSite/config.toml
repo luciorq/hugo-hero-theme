@@ -1,22 +1,25 @@
 baseURL = "www.example.com"
 languageCode = "en-us"
-title = "Hugo Hero Theme"
+title = "Hugo Villain Theme"
 themesDir = "../.."
-theme = "hugo-hero-theme"
+theme = "hugo-villain-theme"
+
+publishDir = "docs"
+
 
 [params]
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_og_title = "Hugo Hero Theme"
+    meta_description = "A modern villainous approach on the hero theme for Hugo."
+    meta_og_title = "Hugo Villain Theme"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-hero.netlify.app"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_og_url = "http://luciorq.github.io/hugo-villain-theme"
+    meta_og_image = "https://raw.githubusercontent.com/luciorq/hugo-villain-theme/master/images/tn.png"
+    meta_og_description = "A modern villainous approach on the hero theme for Hugo."
     meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_site = "@luciorqueiroz"
+    meta_twitter_creator = "@luciorqueiroz"
 
 [[menu.main]]
 	name = "Services"
@@ -33,7 +36,6 @@ theme = "hugo-hero-theme"
     url = "/about/"
     weight = 3
 
-
 [[menu.main]]
     name = "History"
     url = "/history/"
@@ -47,3 +49,13 @@ theme = "hugo-hero-theme"
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
+
+
+# necessary for Rmarkdown integration with GitHub Pages
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
