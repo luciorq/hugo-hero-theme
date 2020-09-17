@@ -1,4 +1,5 @@
-baseURL = "www.example.com"
+baseURL = "https://luciorq.github.io/hugo-villain-theme/"
+# baseURL = "www.example.com"
 languageCode = "en-us"
 title = "Hugo Villain Theme"
 themesDir = "../.."
