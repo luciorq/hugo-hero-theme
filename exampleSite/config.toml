@@ -10,11 +10,11 @@ publishDir = "docs"
 [params]
   google_analytics_id=""
 
-  [colors]
+  [params.colors]
     background_color = "#eff4ef"
     black = "#8a7a50"
-    primary = "#37505a"
-    secondary = "#83a0a6"
+    primary_color = "#37505a"
+    secondary_color = "#83a0a6"
 
   [params.homepage_meta_tags]
     meta_description = "A modern villainous approach on the hero theme for Hugo."

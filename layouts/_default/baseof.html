@@ -20,13 +20,9 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-  {{ if .Site.IsServer }}
-  {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
-  <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
-  {{ else }}
-  {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
-  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
-  {{ end }}
+  {{ $template := resources.Get "scss/style.scss" }}
+  {{ $style := $template | resources.ExecuteAsTemplate "scss/style.scss" . | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+  <link rel="stylesheet" href="{{ ($style).RelPermalink }}" integrity="{{ ($style).Data.Integrity }}">
 
   {{ block "header_css" . }}{{ end }}
 

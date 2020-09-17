@@ -1,20 +1,39 @@
-// mod colors
+// villain mod colors
+// $white: #eff4ef;
+// $black: #8a7a50;
+// $primary: #37505a;
+// $secondary: #83a0a6;
 
-$white: #eff4ef;
-$black: #8a7a50;
-$primary: #37505a;
-$secondary: #83a0a6;
-
-// original colors
+// original colors from hero
 // $white: #ffffff;
 // $black: #000000;
 // $primary: #1c3ed3;
 // $secondary: #43454d;
 
+
+// read colors from [params]
+{{ with .Site.Params.Colors.background_color }}
+$white: {{ . }};
+{{ end }}
+
+{{ with .Params.Colors.black }}
+$black: {{ . }};
+{{ end }}
+
+{{ with .Site.Params.Colors.primary_color }}
+$primary: {{ . }};
+{{ end }}
+
+{{ with .Site.Params.Colors.secondary_color }}
+$secondary: {{ . }};
+{{ end }}
+
+
 // Font
 @import url('https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700');
 
 // Bootstrap
+
 @import 'bootstrap/functions';
 @import 'bootstrap-variables';
 @import 'bootstrap/variables';

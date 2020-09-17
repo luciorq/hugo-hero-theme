@@ -6,4 +6,4 @@ public
 .Rhistory
 .RData
 ^docs/
-exampleSite/docs
+#exampleSite/docs
