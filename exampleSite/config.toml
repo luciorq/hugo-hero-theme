@@ -10,6 +10,12 @@ publishDir = "docs"
 [params]
   google_analytics_id=""
 
+  [colors]
+    background_color = "#eff4ef"
+    black = "#8a7a50"
+    primary = "#37505a"
+    secondary = "#83a0a6"
+
   [params.homepage_meta_tags]
     meta_description = "A modern villainous approach on the hero theme for Hugo."
     meta_og_title = "Hugo Villain Theme"
@@ -22,29 +28,29 @@ publishDir = "docs"
     meta_twitter_creator = "@luciorqueiroz"
 
 [[menu.main]]
-	name = "Services"
-	url = "/services/"
-    weight = 1
+  name = "Services"
+  url = "/services/"
+  weight = 1
 
 [[menu.main]]
-    name = "Work"
-    url = "/work/"
-    weight = 2
+  name = "Work"
+  url = "/work/"
+  weight = 2
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
+  name = "About"
+  url = "/about/"
+  weight = 3
 
 [[menu.main]]
-    name = "History"
-    url = "/history/"
-    weight = 3
+  name = "History"
+  url = "/history/"
+  weight = 3
 
 [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
+  name = "Contact"
+  url = "/contact/"
+  weight = 4
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

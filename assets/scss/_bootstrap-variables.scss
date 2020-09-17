@@ -1,3 +1,9 @@
+// original colors
+// $white: #ffffff;
+// $black: #000000;
+// $primary: #1c3ed3;
+// $secondary: #43454d;
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -14,11 +20,6 @@ $container-max-widths: (
 );
 
 $grid-gutter-width: 20px;
-
-$white: #ffffff;
-$black: #000000;
-$primary: #1c3ed3;
-$secondary: #43454d;
 
 // Links
 $link-color: $primary;

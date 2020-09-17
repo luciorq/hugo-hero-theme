@@ -7,10 +7,13 @@
             <li><strong>Phone: </strong>{{ .Site.Data.contact.phone }}</li>
             <li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
                 {{ .Site.Data.contact.email }}</a></li>
+            <li><strong>Instagram: </strong><a href="https://www.instagram.com/{{ .Site.Data.contact.instagram }}">
+                @{{ .Site.Data.contact.instagram }}</a></li>
           </ul>
           <ul>
-            <li class="zerostatic"><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
+            <li class="parent-site"><a href="{{ .Site.Data.contact.parentSite }}">{{ .Site.Data.contact.parentSite }}</a></li>
           </ul>
+
         </div>
       </div>
     </div>
