@@ -3,3 +3,7 @@ node_modules
 .idea
 public
 .Rproj.user
+.Rhistory
+.RData
+docs
+
