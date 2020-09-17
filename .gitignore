@@ -5,5 +5,5 @@ public
 .Rproj.user
 .Rhistory
 .RData
-^docs/
-#exampleSite/docs
+# ^docs/
+# exampleSite/docs

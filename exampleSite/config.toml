@@ -4,7 +4,7 @@ title = "Hugo Villain Theme"
 themesDir = "../.."
 theme = "hugo-villain-theme"
 
-publishDir = "docs"
+publishDir = "../docs"
 
 
 [params]
