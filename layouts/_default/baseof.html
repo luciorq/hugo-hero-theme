@@ -24,11 +24,12 @@
   <link rel="mask-icon" href="{{ .Site.BaseURL }}safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-
+  <!-- Process assets/scss dir -->
   {{ $template := resources.Get "scss/style.scss" }}
   {{ $style := $template | resources.ExecuteAsTemplate "scss/style.scss" . | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
   <link rel="stylesheet" href="{{ ($style).RelPermalink }}" integrity="{{ ($style).Data.Integrity }}">
 
+  <!-- not used -->
   {{ block "header_css" . }}{{ end }}
 
 </head>
@@ -44,6 +45,7 @@
   {{ partial "footer.html" . }}
   {{ partial "sub-footer.html" . }}
 
+  <!-- add assets/js dir -->
   {{ $scripts := resources.Get "js/scripts.js" }}
 
   {{ block "footer_js" . }}

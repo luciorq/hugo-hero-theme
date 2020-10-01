@@ -1,5 +1,5 @@
 baseURL = "https://luciorq.github.io/hugo-villain-theme/"
-languageCode = "en-us"
+
 title = "Hugo Villain Theme"
 themesDir = "../.."
 theme = "hugo-villain-theme"
@@ -55,6 +55,36 @@ publishDir = "../docs"
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
 
+
+# Need adjustments for multilignual website
+# DefaultContentLanguage = "en"
+# copyright = "Everything is mine"
+#
+# [languages]
+#   [languages.ar]
+#     languagedirection = "rtl"
+#     title = "مدونتي"
+#     weight = 2
+#   [languages.en]
+#     title = "My blog"
+#     weight = 1
+#     [languages.en.params]
+#       linkedin = "https://linkedin.com/whoever"
+#   [languages.fr]
+#     title = "Mon blogue"
+#     weight = 2
+#     [languages.fr.params]
+#       linkedin = "https://linkedin.com/fr/whoever"
+#       [languages.fr.params.navigation]
+#         help = "Aide"
+# This set the default if it is not configured inside language
+# [params]
+#   [params.navigation]
+#     help = "Help"
+#
+
+# languageCode is used for RSS feeds in XML
+languageCode = "en-us"
 
 # necessary for Rmarkdown integration with GitHub Pages
 [markup]
