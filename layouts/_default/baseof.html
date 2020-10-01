@@ -6,6 +6,10 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  {{ partial "google-analytics.html" . }}
+
   {{ block "meta_tags" . }}{{end}}
 
   <!--
@@ -50,8 +54,6 @@
   {{ else }}
   <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
-
-  {{ partial "google-analytics.html" . }}
 
 </body>
 </html>
