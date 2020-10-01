@@ -26,7 +26,6 @@ publishDir = "../docs"
     meta_twitter_card = "summary"
     meta_twitter_site = "@luciorqueiroz"
     meta_twitter_creator = "@luciorqueiroz"
-
 [[menu.main]]
   name = "Services"
   url = "/services/"
