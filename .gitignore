@@ -1,9 +1,11 @@
 .DS_Store
 node_modules
 .idea
-public
 .Rproj.user
 .Rhistory
 .RData
-# ^docs/
-# exampleSite/docs
+public/
+# docs/
+exampleSite/public/
+exampleSite/docs/
+exampleSite/resources/
