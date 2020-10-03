@@ -1,10 +1,10 @@
 baseURL = "https://luciorq.github.io/hugo-villain-theme/"
 
 title = "Hugo Villain Theme"
-themesDir = "../.."
+themesDir = "../../"
 theme = "hugo-villain-theme"
 
-publishDir = "../docs"
+publishDir = "../docs/"
 
 
 [params]
