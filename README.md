@@ -7,7 +7,7 @@ A modern villainous approach on the hero theme for Hugo.
 [Live Demo](http://luciorq.github.io/hugo-villain-theme) |
 [Installation](#installation)
 
-![Hugo Villain Theme screenshot](https://github.com/luciorq/hugo-villain-theme/blob/master/images/screenshot-full.jpg)
+![Hugo Villain Theme screenshot](https://github.com/luciorq/hugo-villain-theme/blob/main/images/screenshot-full.jpg)
 
 # Features
 
@@ -90,9 +90,9 @@ git clone https://github.com/luciorq/hugo-villain-theme.git themes/villain
 
 ### Install theme from .zip file
 
-You can download the .zip file located here https://github.com/luciorq/hugo-villain-theme/archive/master.zip.
+You can download the .zip file located here https://github.com/luciorq/hugo-villain-theme/archive/main.zip.
 
-Extract the downloaded .zip inside the `themes` folder. Rename the extracted folder from `hugo-villain-theme-master` -> `hugo-villain-theme`. You should end up with the following folder structure `mynewsite/themes/hugo-villain-theme`
+Extract the downloaded .zip inside the `themes` folder. Rename the extracted folder from `hugo-villain-theme-main` -> `hugo-villain-theme`. You should end up with the following folder structure `mynewsite/themes/hugo-villain-theme`
 
 ### Copy example content
 

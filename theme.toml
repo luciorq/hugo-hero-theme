@@ -1,6 +1,6 @@
 name = "Villain"
 license = "MIT"
-licenselink = "https://github.com/luciorq/hugo-villain-theme/blob/master/LICENSE.md"
+licenselink = "https://github.com/luciorq/hugo-villain-theme/blob/main/LICENSE.md"
 description = "Villain is a multipurpose theme with fullscreen hero images and fullwidth sections. It contains content types for a business or portfolio site."
 homepage = "https://github.com/luciorq/hugo-villain-theme"
 tags = ["responsive","minimal","clean","company","portfolio","bootstrap"]
